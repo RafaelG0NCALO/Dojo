@@ -19,6 +19,8 @@ export default function Hero() {
       <img
         src={logo}
         alt="logo"
+        loading="lazy"
+        decoding="async"
         className="absolute object-contain left-1/2 -translate-x-1/2 top-[6%] z-50 h-[15%]"
       />
 
@@ -35,6 +37,8 @@ export default function Hero() {
         <img
           src={house}
           alt="house"
+          loading="lazy"
+          decoding="async"
           className="w-full"
         />
       </div>

@@ -30,6 +30,8 @@ export default function Clouds() {
         src={cloundsR}
         ref={cloudsRef}
         alt="clouds"
+        loading="lazy"
+        decoding="async"
         className="absolute object-contain right-0 top-0 h-full"
       />
 
@@ -37,6 +39,8 @@ export default function Clouds() {
         src={cloundsL}
         ref={cloudsRef2}
         alt="clouds"
+        loading="lazy"
+        decoding="async"
         className="absolute object-contain left-0 top-0 h-full"
       />
 
@@ -44,6 +48,8 @@ export default function Clouds() {
         <img
           src={cloundsB}
           alt="clouds"
+          loading="lazy"
+          decoding="async"
           className="object-cover h-full object-top w-full"
         />
       </div>
@@ -52,6 +58,8 @@ export default function Clouds() {
         src={cloundsRM}
         ref={cloudsBirdsRef}
         alt="clouds"
+        loading="lazy"
+        decoding="async"
         className="absolute object-contain right-0 top-1/6 h-1/3 z-40"
       />
 
@@ -59,6 +67,8 @@ export default function Clouds() {
         src={cloundsLM}
         ref={cloudsBirdsRef2}
         alt="clouds"
+        loading="lazy"
+        decoding="async"
         className="absolute object-contain left-0 top-1/6 h-1/3 z-40"
       />
     </>

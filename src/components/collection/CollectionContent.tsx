@@ -7,6 +7,8 @@ export default function CollectionContent() {
       <img
         src={bg2}
         alt=""
+        loading="lazy"
+        decoding="async"
         className="w-full h-full absolute object-cover"
       />
 

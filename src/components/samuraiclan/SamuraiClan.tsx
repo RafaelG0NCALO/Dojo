@@ -3,15 +3,19 @@ import samurais from '../../assets/samurais.mp4'
 export default function SamuraiClan() {
   return (
     <section className="w-full h-full relative flex items-center justify-center overflow-hidden">
-      
+
       <video
-        src={samurais}
         autoPlay
         loop
         muted
         playsInline
-        className="w-screen h-screen max-md:h-[50vh] object-cover object-center"
-      />
+        preload="metadata"
+        poster="/poster.webp"
+         className="w-screen h-screen max-md:h-[50vh] object-cover object-center"
+      >
+        <source src="/samurais.webm" type="video/webm" />
+        <source src={samurais} type="video/mp4" />
+      </video>
 
       <div className="
         text-center

@@ -14,35 +14,44 @@ export default function Collection() {
       <img
         src={bg}
         alt=""
+        loading="lazy"
+        decoding="async"
         className="w-full h-full absolute object-cover"
       />
 
       <img
         src={cano}
         alt=""
+        loading="lazy"
+        decoding="async"
         className="z-30 block w-full top-10 max-md:top-[55%] absolute"
       />
 
       <img
         src={card}
         alt=""
+        loading="lazy"
+        decoding="async"
         className="z-30 block h-2/3 top-10 max-md:h-2/5 max-md:top-[55%] absolute card-slide-1"
       />
 
       <img
         src={card2}
         alt=""
+        loading="lazy"
+        decoding="async"
         className="z-30 block h-2/3 top-10 max-md:h-2/5 max-md:top-[55%] absolute card-slide-2"
       />
 
       <img
         src={card4}
         alt=""
+        loading="lazy"
+        decoding="async"
         className="z-30 block h-2/3 top-10 max-md:h-2/5 max-md:top-[55%] absolute card-slide-3"
       />
 
       <CollectionVisual />
-
       <CollectionContent />
     </section>
   )

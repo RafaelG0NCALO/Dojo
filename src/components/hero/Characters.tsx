@@ -10,6 +10,8 @@ export default function Characters() {
           src={skeleton}
           alt="skeleton"
           className="w-full"
+          loading="lazy"
+          decoding="async"
         />
       </div>
 
@@ -18,6 +20,8 @@ export default function Characters() {
           src={butterflys}
           alt="butterflies"
           className="w-full"
+          loading="lazy"
+          decoding="async"
         />
       </div>
 
@@ -26,6 +30,8 @@ export default function Characters() {
           src={frog}
           alt="frog"
           className="w-full"
+          loading="lazy"
+          decoding="async"
         />
       </div>
 
@@ -34,6 +40,8 @@ export default function Characters() {
           src={butterflys}
           alt="butterflies"
           className="w-full"
+          loading="lazy"
+          decoding="async"
         />
       </div>
     </>

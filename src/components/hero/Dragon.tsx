@@ -10,6 +10,8 @@ function Dragon({ className }: DragonProps) {
       <img
         src={dragon}
         alt="dragon"
+        loading="lazy"
+        decoding="async"
         className="w-full h-full object-contain"
       />
     </div>

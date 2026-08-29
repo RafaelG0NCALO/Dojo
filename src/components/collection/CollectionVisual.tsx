@@ -3,7 +3,6 @@ import frogSamurai from '../../assets/frogSamurai.webp'
 export default function CollectionVisual() {
   return (
     <div className="relative max-md:order-2 max-lg:min-h-[60vh]">
-
       <img
         src={frogSamurai}
         alt="Frog Samurai"
@@ -17,6 +16,8 @@ export default function CollectionVisual() {
           object-contain
           left-0
         "
+        loading="lazy"
+        decoding="async"
       />
 
       <img
@@ -33,8 +34,9 @@ export default function CollectionVisual() {
           object-contain
           left-0
         "
+        loading="lazy"
+        decoding="async"
       />
-
     </div>
   )
 }
