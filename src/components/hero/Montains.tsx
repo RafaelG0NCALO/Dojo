@@ -1,5 +1,5 @@
-import montainR from '../../assets/montainR.png'
-import montainL from '../../assets/montainL.png'
+import montainR from '../../assets/montainR.webp'
+import montainL from '../../assets/montainL.webp'
 
 export default function Mountains() {
   return (

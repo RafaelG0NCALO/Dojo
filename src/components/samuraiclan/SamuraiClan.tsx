@@ -10,7 +10,7 @@ export default function SamuraiClan() {
         loop
         muted
         playsInline
-        className="w-screen h-screen object-cover"
+        className="w-screen h-screen max-md:h-[50vh] object-cover object-center"
       />
 
       <div className="
@@ -22,7 +22,7 @@ export default function SamuraiClan() {
         max-md:p-4
         mx-auto
         bg-gray-900/20
-        backdrop-blur-sm
+        backdrop-blur-xs
         left-4
         right-4
         z-40
@@ -37,19 +37,13 @@ export default function SamuraiClan() {
           font-bold
           collection-title
         ">
-          O CLÃ DOS SAPOS³
+          O CLÃ³
         </h1>
 
-        <p className="text-[clamp(0.9rem,2.3vw,1.5rem)] text-white">
-          Entre em um mundo onde tradição, caos e aventura caminham lado a lado.
-          Aqui, cada sapo carrega sua própria história, seu próprio estilo e
-          um lugar dentro do clã.
-        </p>
-
-        <p className="text-[clamp(0.9rem,2.3vw,1.5rem)] mt-2 mb-4 text-white">
-          Explore esse universo, conheça os guerreiros e faça parte de uma
-          comunidade criada para quem gosta de arte, personagens e
-          experiências fora do comum.
+        <p className="text-[clamp(0.9rem,2.3vw,1.5rem)] text-white mb-4">
+          Entre em um mundo onde tradição, caos e aventura caminham lado a lado,
+          conheça os guerreiros e faça parte de uma comunidade criada para quem
+          gosta de arte, personagens e experiências fora do comum.
         </p>
 
         <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-5 max-lg:gap-2">

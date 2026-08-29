@@ -1,6 +1,6 @@
-import bg from '../../assets/bg.png'
-import cano from '../../assets/cano2.png'
-import card from '../../assets/card.png'
+import bg from '../../assets/bg.webp'
+import cano from '../../assets/cano2.webp'
+import card from '../../assets/card.webp'
 import card2 from '../../assets/card2.png'
 import card4 from '../../assets/card4.png'
 

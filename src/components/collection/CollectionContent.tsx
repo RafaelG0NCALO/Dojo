@@ -1,4 +1,4 @@
-import bg2 from '../../assets/bg2.png'
+import bg2 from '../../assets/bg2.webp'
 
 export default function CollectionContent() {
   return (
@@ -34,7 +34,7 @@ export default function CollectionContent() {
           font-bold
           collection-title
         ">
-          COLLECTION
+          COLEÇÃO
         </h1>
 
         <p className="text-[clamp(0.9rem,2.3vw,1.5rem)] text-white">

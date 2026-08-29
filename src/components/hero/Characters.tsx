@@ -1,5 +1,5 @@
-import skeleton from '../../assets/skeleton.png'
-import frog from '../../assets/frog.png'
+import skeleton from '../../assets/skeleton.webp'
+import frog from '../../assets/frog.webp'
 import butterflys from '../../assets/butterflys.gif'
 
 export default function Characters() {

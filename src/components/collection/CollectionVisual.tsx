@@ -1,4 +1,4 @@
-import frogSamurai from '../../assets/frogSamurai.png'
+import frogSamurai from '../../assets/frogSamurai.webp'
 
 export default function CollectionVisual() {
   return (

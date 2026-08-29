@@ -1,9 +1,9 @@
-import cloundsR from '../../assets/cloundsR.png'
-import cloundsL from '../../assets/cloundsL.png'
-import cloundsB from '../../assets/cloundsB.png'
+import cloundsR from '../../assets/cloundsR.webp'
+import cloundsL from '../../assets/cloundsL.webp'
+import cloundsB from '../../assets/nuvensv2.webp'
 
-import cloundsRM from '../../assets/cloundsRM.png'
-import cloundsLM from '../../assets/cloundsLM.png'
+import cloundsRM from '../../assets/cloundsRM.webp'
+import cloundsLM from '../../assets/cloundsLM.webp'
 
 import { useParallax } from '../../hooks/useParallax'
 
@@ -40,11 +40,11 @@ export default function Clouds() {
         className="absolute object-contain left-0 top-0 h-full"
       />
 
-      <div className="absolute w-full h-1/2 bottom-0 left-1/2 -translate-x-1/2 z-30">
+      <div className="absolute w-full flex items-end h-1/2 bottom-0 left-1/2 -translate-x-1/2 z-30">
         <img
           src={cloundsB}
           alt="clouds"
-          className="object-cover h-full w-full"
+          className="object-cover h-full object-top w-full"
         />
       </div>
 

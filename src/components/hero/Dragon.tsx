@@ -1,4 +1,4 @@
-import dragon from '../../assets/dragon.png'
+import dragon from '../../assets/dragon.webp'
 
 interface DragonProps {
   className: string

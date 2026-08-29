@@ -1,5 +1,5 @@
-import logo from '../../assets/logo.png'
-import house from '../../assets/house.png'
+import logo from '../../assets/logo.webp'
+import house from '../../assets/house.webp'
 
 import Clouds from './Clounds'
 import Mountains from './Montains'
