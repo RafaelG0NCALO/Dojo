@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import "tailwindcss";
+
+.collection-title {
+  font-family: 'Audiowide', sans-serif;
+}
+
+.bg-rainbow{
+  background: linear-gradient(
+  180deg,
+  #4D51A7 0%,
+  #9878BD 36%,
+  #E591B2 69%,
+  #FDD68F 100%
+);
+}
+
+.spin-slow {
+  animation: spin 22s linear infinite;
+}
+
+.shadow2{
+  filter: drop-shadow(5px 5px 10px #2649b0);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-slide-1 {
+  animation: cardPass1 14s ease-in-out infinite;
+}
+.card-slide-2 {
+  animation: cardPass2 14s ease-in-out infinite;
+}
+.card-slide-3 {
+  animation: cardPass3 14s ease-in-out infinite;
+}
+
+@keyframes cardPass1 {
+  0% { left: -30%; opacity: 1; animation-timing-function: ease-out; }
+  20% { left: 40%; opacity: 1; animation-timing-function: ease-in; }
+  40% { left: 110%; opacity: 1; }
+  40.01%, 100% { left: -30%; opacity: 0; }
+}
+
+@keyframes cardPass2 {
+  0%, 33.33% { left: -30%; opacity: 0; }
+  33.34% { left: -30%; opacity: 1; animation-timing-function: ease-out; }
+  53.34% { left: 40%; opacity: 1; animation-timing-function: ease-in; }
+  73.34% { left: 110%; opacity: 1; }
+  73.35%, 100% { left: -30%; opacity: 0; }
+}
+
+@keyframes cardPass3 {
+  0% { left: 86.67%; opacity: 1; animation-timing-function: ease-in; }
+  6.67% { left: 110%; opacity: 1; }
+  6.68%, 66.66% { left: -30%; opacity: 0; }
+  66.67% { left: -30%; opacity: 1; animation-timing-function: ease-out; }
+  86.67% { left: 40%; opacity: 1; animation-timing-function: ease-in; }
+  100% { left: 86.67%; opacity: 1; }
+}
