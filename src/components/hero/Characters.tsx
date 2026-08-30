@@ -5,7 +5,9 @@ export default function Characters() {
   return (
     <>
       <div className="shadow2 max-md:w-3/5 w-2/7 absolute bottom-0 left-0 z-40">
-        <img
+        <img  
+          draggable="false"
+          onContextMenu={(e) => e.preventDefault()}
           src={skeleton}
           alt="skeleton"
           className="w-full"
@@ -15,7 +17,9 @@ export default function Characters() {
       </div>
 
       <div className="shadow2 max-md:w-3/5 w-2/7 absolute bottom-0 right-0 z-40">
-        <img
+        <img  
+          draggable="false"
+          onContextMenu={(e) => e.preventDefault()}
           src={frog}
           alt="frog"
           className="w-full"

@@ -11,7 +11,9 @@ export default function Collection() {
   return (
     <section className="w-full h-full lg:min-h-screen relative overflow-hidden grid grid-cols-2 max-md:grid-cols-1 border-b-8 border-sky-950">
       
-      <img
+      <img  
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={bg}
         alt=""
         loading="lazy"
@@ -19,7 +21,9 @@ export default function Collection() {
         className="w-full h-full absolute object-cover"
       />
 
-      <img
+      <img 
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={cano}
         alt=""
         loading="lazy"
@@ -27,7 +31,9 @@ export default function Collection() {
         className="z-30 block w-full top-10 max-md:top-[55%] absolute"
       />
 
-      <img
+      <img  
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={card}
         alt=""
         loading="lazy"
@@ -35,7 +41,9 @@ export default function Collection() {
         className="z-30 block h-2/3 top-10 max-md:h-2/5 max-md:top-[55%] absolute card-slide-1"
       />
 
-      <img
+      <img 
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={card2}
         alt=""
         loading="lazy"
@@ -43,7 +51,9 @@ export default function Collection() {
         className="z-30 block h-2/3 top-10 max-md:h-2/5 max-md:top-[55%] absolute card-slide-2"
       />
 
-      <img
+      <img  
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={card4}
         alt=""
         loading="lazy"

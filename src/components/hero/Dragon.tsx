@@ -7,7 +7,9 @@ interface DragonProps {
 function Dragon({ className }: DragonProps) {
   return (
     <div className={className}>
-      <img
+      <img 
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={dragon}
         alt="dragon"
         loading="lazy"

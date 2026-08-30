@@ -16,7 +16,9 @@ export default function Hero() {
   return (
     <section className="min-h-screen w-full bg-rainbow relative overflow-hidden border-b-8 border-sky-950">
 
-      <img
+      <img  
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={logo}
         alt="logo"
         loading="lazy"
@@ -34,7 +36,9 @@ export default function Hero() {
         ref={housesRef}
         className="w-11/12 xl:max-w-2/5 absolute bottom-1/8 left-1/2 -translate-x-1/2 z-20"
       >
-        <img
+        <img 
+          draggable="false"
+          onContextMenu={(e) => e.preventDefault()}
           src={house}
           alt="house"
           loading="lazy"

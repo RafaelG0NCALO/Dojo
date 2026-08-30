@@ -26,7 +26,9 @@ export default function Clouds() {
 
   return (
     <>
-      <img
+      <img  
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={cloundsR}
         ref={cloudsRef}
         alt="clouds"
@@ -35,7 +37,9 @@ export default function Clouds() {
         className="absolute object-contain right-0 top-0 h-full"
       />
 
-      <img
+      <img  
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={cloundsL}
         ref={cloudsRef2}
         alt="clouds"
@@ -45,7 +49,9 @@ export default function Clouds() {
       />
 
       <div className="absolute w-full flex items-end h-1/2 bottom-0 left-1/2 -translate-x-1/2 z-30">
-        <img
+        <img  
+          draggable="false"
+          onContextMenu={(e) => e.preventDefault()}
           src={cloundsB}
           alt="clouds"
           loading="lazy"
@@ -54,7 +60,9 @@ export default function Clouds() {
         />
       </div>
 
-      <img
+      <img  
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={cloundsRM}
         ref={cloudsBirdsRef}
         alt="clouds"
@@ -63,7 +71,9 @@ export default function Clouds() {
         className="absolute object-contain right-0 top-1/6 h-1/3 z-40"
       />
 
-      <img
+      <img  
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={cloundsLM}
         ref={cloudsBirdsRef2}
         alt="clouds"

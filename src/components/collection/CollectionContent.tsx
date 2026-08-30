@@ -4,7 +4,8 @@ export default function CollectionContent() {
   return (
     <div className="relative flex justify-center items-center p-4 max-lg:min-h-[70vh]">
 
-      <img
+      <img  draggable="false"
+  onContextMenu={(e) => e.preventDefault()}
         src={bg2}
         alt=""
         loading="lazy"

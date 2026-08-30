@@ -3,7 +3,8 @@ import frogSamurai from '../../assets/frogSamurai.webp'
 export default function CollectionVisual() {
   return (
     <div className="relative max-md:order-2 max-lg:min-h-[60vh]">
-      <img
+      <img  draggable="false"
+  onContextMenu={(e) => e.preventDefault()}
         src={frogSamurai}
         alt="Frog Samurai"
         className="
@@ -20,7 +21,8 @@ export default function CollectionVisual() {
         decoding="async"
       />
 
-      <img
+      <img  draggable="false"
+  onContextMenu={(e) => e.preventDefault()}
         src={frogSamurai}
         alt="Frog Samurai"
         className="

@@ -4,7 +4,9 @@ import montainL from '../../assets/montainL.webp'
 export default function Mountains() {
   return (
     <>
-      <img
+      <img 
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={montainR}
         alt="mountain"
         loading="lazy"
@@ -12,7 +14,9 @@ export default function Mountains() {
         className="absolute object-contain h-3/4 bottom-0 right-0 z-20"
       />
 
-      <img
+      <img  
+        draggable="false"
+        onContextMenu={(e) => e.preventDefault()}
         src={montainL}
         alt="mountain"
         loading="lazy"
